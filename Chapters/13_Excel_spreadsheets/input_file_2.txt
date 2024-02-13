@@ -1,0 +1,5 @@
+-enable-features="WaylandWindowDecorations" --ozone-platform="wayland" --disable-gpu-sandbox --disable-gpu
+
+/var/lib/flatpak/app/com.visualstudio.code/current/active/export/share/applications
+
+enable-features="WaylandWindowDecorations"

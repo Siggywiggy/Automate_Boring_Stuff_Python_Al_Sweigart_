@@ -1,0 +1,3 @@
+~/.var/app/com.jetbrains.PyCharm-Community/data/JetBrains/PyCharmCE2023.3
+
+~/.var/app/com.jetbrains.PyCharm-Community/config/JetBrains/PyCharmCE2023.3$ sudo rm .lock

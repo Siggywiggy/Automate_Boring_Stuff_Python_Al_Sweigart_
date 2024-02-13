@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/aadamkurm/Documents/Programmeerimine/Automate_boring_stuff_Python/new_run/11_Debugging/11_traceback.py", line 4, in <module>
+    raise Exception("This is the error message")
+Exception: This is the error message

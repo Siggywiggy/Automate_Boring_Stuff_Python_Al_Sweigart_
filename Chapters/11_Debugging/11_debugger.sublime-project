@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/aadamkurm/Documents/Programmeerimine/Automate_boring_stuff_Python/new_run/11_Debugging",
+		}
+	],
+	"debugger_configurations":
+	[
+		{
+			"name": "Python: Current File",
+			"type": "python",
+			"request": "launch",
+			"program": "${file}"
+		},
+	],
+}

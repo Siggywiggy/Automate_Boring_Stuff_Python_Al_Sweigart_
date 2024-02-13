@@ -1,0 +1,5 @@
+print("Hello, world!".startswith("Hello"))
+print("Hello, world!".endswith("world!"))
+print("abc123".startswith("abcdef"))
+print("Hello, world!".startswith("Hello, world!"))
+print("Hello, world!".endswith("Hello, world!"))
