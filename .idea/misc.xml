@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (Automate_Boring_Stuff_Python_Al_Sweigart)" project-jdk-type="Python SDK" />
+  <component name="Black">
+    <option name="sdkName" value="Python 3.10 (Automate_Boring_Stuff_Python_Al_Sweigart)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (Automate_Boring_Stuff_Python_Al_Sweigart) (2)" project-jdk-type="Python SDK" />
 </project>
