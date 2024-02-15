@@ -86,7 +86,7 @@ for folder_name, sub_folders, file_names in os.walk(starting_folder):
                 if decrypt_pdf(new_file_name, passphrase) is not None:
                     print(f'deleting {file_name}')
                     # send2trash(full_file_name)
-                    send2trash(full_file_name)
+                    os.remove(full_file_name)
                 else:
                     print(f'failed to decrypt {file_name}!')
             elif action == 'decrypt':
@@ -98,7 +98,7 @@ for folder_name, sub_folders, file_names in os.walk(starting_folder):
                     result_pdf = open(new_file_name, 'wb')
                     pdf_writer.write(result_pdf)
                     result_pdf.close()
-                    send2trash(full_file_name) # delete the original encrypted file
+                    os.remove(full_file_name) # delete the original encrypted file
                 else:
                     print(f'{file_name} is not encrypted')
                     continue
