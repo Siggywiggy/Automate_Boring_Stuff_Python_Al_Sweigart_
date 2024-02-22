@@ -1,3 +1,5 @@
 /automate_env/
 /.vscode/
 /.idea/
+/.venv/
+/venv/
