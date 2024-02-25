@@ -1,5 +1,6 @@
 #! python3
 # a program to download all xkcd comics
+import time
 
 import requests
 import bs4
@@ -46,6 +47,7 @@ def downloader(url):
         # recursively call the function with previous url as parameter
         downloader(previous_comic_url)
 
-
+start_time = time.time()
 downloader(xkcd_home_page)
+print(f'Done downloading the comics in {start_time - time.time()} seconds')
 

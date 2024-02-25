@@ -2,6 +2,8 @@
 # Prints the weather for a location from the command line
 
 import json
+import time
+
 import requests
 import sys
 import pprint
@@ -18,7 +20,8 @@ if len(sys.argv) < 2:
 location = sys.argv[1]
 units = 'metric'
 
-
+# start the timer
+start_time = time.time()
 # get the latitude and longitude from Geocoding API
 geocoding_url = f'http://api.openweathermap.org/geo/1.0/direct?q={location}&limit=1&appid={app_ID}'
 response = requests.get(geocoding_url)
@@ -50,4 +53,5 @@ print(f"Current humidity is {weather_data['main']['humidity']} % Rh")
 print(f"Current air pressure is {weather_data['main']['pressure']} hPa")
 print(f'The sun rises on {sunrise} am')
 print(f'The sun sets on {sunset} pm')
+print(f'The data request to openweathermap took {time.time() - start_time} seconds')
 
