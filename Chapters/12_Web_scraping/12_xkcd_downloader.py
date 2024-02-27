@@ -49,5 +49,5 @@ def downloader(url):
 
 start_time = time.time()
 downloader(xkcd_home_page)
-print(f'Done downloading the comics in {start_time - time.time()} seconds')
+print(f'Done downloading the comics in {time.time() - start_time} seconds')
 
