@@ -1,11 +1,9 @@
 #! python 3
-
 import os
-
 import PIL
 from PIL import Image, UnidentifiedImageError
 
-process_filetypes = ['jpg']
+process_filetypes = ['jpg', 'png']
 
 for folder_name, subfolders, filenames in os.walk('C:\\'):
     #print(f'{subfolders}')
