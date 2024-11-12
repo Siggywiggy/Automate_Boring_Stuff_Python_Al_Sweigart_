@@ -1,4 +1,4 @@
-import pyinputplus as pyip
+    import pyinputplus as pyip
 
 # series of digits that adds up to 10
 # Accepts a single string argument of what the user entered
